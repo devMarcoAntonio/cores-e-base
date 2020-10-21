@@ -6,7 +6,49 @@ import { Component } from '@angular/core';
   styleUrls: ['tab2.page.scss']
 })
 export class Tab2Page {
+ 
+  
+    constructor() {
 
-  constructor() {}
+  }
+  
 
-}
+  reset() {
+    this.minhacor,
+    this.cordefundo = '';
+      
+    };
+    
+  minhacor = '#0000FF';
+  cordefundo = '#FFFF00';
+
+ 
+ 
+  hexatorgb() {
+    
+    this.minhacor = '#000000';
+    this.cordefundo = '#FF0000';
+   }
+   hexatorgb2(){
+
+    this.minhacor = '#000000';
+    this.cordefundo = '#00FF00';
+   }
+   hexatorgb3(){
+
+    this.minhacor = '#000000';
+    this.cordefundo = '#0000FF';
+   }
+   hexatorgb4(){
+
+    this.minhacor = '#000000';
+    this.cordefundo = '#FFFF00';
+   }
+   hexatorgb5(){
+
+    this.minhacor = '#000000';
+    this.cordefundo = '#CCEEFF';
+   }
+   
+  }
+  
